@@ -24,20 +24,29 @@ b)	Call the 'calculateArea' method on the 'rectangle' object
  ```
 /*
 Program to implement a User Defined Method using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Mohamed Hameem Sajith J
+RegisterNumber:  212223240090
 */
+
+
+   public boolean isPali(int num){
+       int orginalnum=num;
+       int reversednum= 0;
+       while(num!=0){
+          int digit=num%10;
+          reversednum=reversednum*10+digit;
+          num=num/10;
+       }
+       return orginalnum==reversednum;
+   }
+   
 ```
-
-## Sourcecode.java:
-
-
-
 
 
 
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/bfc512db-e343-48d5-8409-317efacd4d2c)
 
 
 
