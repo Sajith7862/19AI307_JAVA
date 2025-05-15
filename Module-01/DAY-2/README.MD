@@ -24,17 +24,24 @@ b)	If the condition is false, print "false" using the 'print' method of 'System.
  ```
 /*
 Program to implement a variable and operators using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Mohamed Hameem Sajith J
+RegisterNumber: 212223240090 
+
+public class Demo {
+    int num = 500;
+
+    public void calculate() {
+        int result = ((num * 80) / 5) - 15;
+        System.out.println(result);
+    }
+
+    public static void main(String[] args) {
+        Demo obj = new Demo();
+        obj.calculate();
+    }
+}
 */
 ```
-
-## Sourcecode.java:
-
-
-
-
-
 
 
 ## OUTPUT:
