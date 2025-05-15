@@ -22,21 +22,26 @@ III.	Call the displayDetails() method for each student.
  ```
 /*
 Program to implement a Static Variable using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Mohamed Hameem Sajith J
+RegisterNumber:  212223240090
 */
+
+Scanner sc=new Scanner(System.in);
+Distance obj1=new Distance();
+Distance obj2=new Distance();
+Distance obj3=new Distance();
+obj1.feet=sc.nextDouble();
+obj1.inches=sc.nextDouble();
+obj2.feet=sc.nextDouble();
+obj2.inches=sc.nextDouble();
+
+
 ```
-
-## Sourcecode.java:
-
-
-
-
-
 
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/374c7926-a4ca-445d-833e-85e1e29af9e4)
 
 
 ## RESULT:
