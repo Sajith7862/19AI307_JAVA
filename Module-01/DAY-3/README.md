@@ -21,21 +21,29 @@ b.	If false, print 'num' followed by " is Non-Zero"
  ```
 /*
 Program to implement a class & objects using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Mohamed Hameem Sajith J
+RegisterNumber:  212223240090
 */
+
+import java.util.*;
+public class Main{
+    public static void main (String [] args){
+        Scanner sc= new Scanner(System.in);
+        int x;
+        x=sc.nextInt();
+       int y= (int)(Math.pow(x, 3)-2*Math.pow(x-3, 3)+20);
+       System.out.println("value: "+y);
+        
+        
+    }
+}
 ```
-
-## Sourcecode.java:
-
-
-
-
 
 
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/8f583b2b-56a5-408b-a9f1-21012c5e5426)
 
 
 ## RESULT:
