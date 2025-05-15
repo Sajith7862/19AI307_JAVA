@@ -21,21 +21,41 @@ To create a java program for calculate cube of a number using static method.
  ```
 /*
 Program to implement a Static method using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Mohamed Hameem Sajith J
+RegisterNumber:  212223240090
 */
+
+import java.util.Scanner;
+
+public class MultiplyNumbers {
+    
+    public static double multiply(double num1, double num2) {
+        return num1 * num2;
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+       
+        double num1 = scanner.nextDouble();
+        
+        double num2 = scanner.nextDouble();
+
+        double product = multiply(num1, num2);
+        System.out.println("The product of " + num1 + " and " + num2 + " is: " + product);
+
+        scanner.close();
+    }
+}
+
 ```
-
-## Sourcecode.java:
-
-
-
 
 
 
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/63c31194-d5f3-47bd-906b-d56aed9068d8)
 
 
 ## RESULT:
