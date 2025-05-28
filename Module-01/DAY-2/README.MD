@@ -14,11 +14,12 @@ To write a Java program to get values of variables 'a' and 'b' and then check if
 9.End
 
 # PROGRAM:
-/*
+
 ```
 Program to implement a variable and operators using Java
 Developed by: Mohamed Hameem Sajith J
 RegisterNumber:  212223240090
+
 import java.lang.Math;
 import java.util.*;
 public class Demo
@@ -31,7 +32,6 @@ public class Demo
   }
 }
 ```
-*/
 OUTPUT:
 
 RESULT:
