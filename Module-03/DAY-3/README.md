@@ -23,20 +23,35 @@ To Create a java program use replace() method replaces the given String from the
  ```
 /*
 Program to implement a String Builder using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Mohamed Hameem Sajith J
+RegisterNumber:  212223240090
 */
+
+import java.util.Scanner;
+
+public class StringLengthExample {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        String input = scanner.nextLine();
+
+        StringBuilder stringBuilder = new StringBuilder(input);
+
+        int length = stringBuilder.length();
+
+        System.out.println("The size of the String is " + length);
+
+        scanner.close();
+    }
+}
 ```
-
-## Sourcecode.java:
-
-
-
 
 
 
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/1f2ee487-3d03-4f89-9c35-2127dcb5b9e9)
 
 
 
