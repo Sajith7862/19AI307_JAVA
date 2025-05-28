@@ -18,20 +18,37 @@ To write a Java program that reads an array size and elements from the user and 
  ```
 /*
 Program to implement a Smallest Element in an Array
-Developed by: 
-RegisterNumber:  
+Developed by: Mohamed Hameem Sajith J
+RegisterNumber:  212223240090
 */
+
+import java.util.Scanner;
+public class Demo {
+
+    
+  public static void main(String[] args)
+    {
+	  {
+		   int i=1,n,sum=0;	
+		   Scanner in = new Scanner(System.in);
+				    n = in.nextInt();
+		  do
+
+		   {
+		     sum+=2*i;
+		     i++;
+		   }while(i<=n);
+		   System.out.println ("The Sum of even Natural Number upto " +n+" terms is: " +sum);
+
+		}
+    }
+}
 ```
-
-## Sourcecode.java:
-
-
-
-
 
 
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/2ec6e53e-fffa-4827-90a9-013cf16a516c)
 
 
 
