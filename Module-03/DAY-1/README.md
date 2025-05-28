@@ -18,21 +18,37 @@ To create a java program to read input and print length of the string in java.
  ```
 /*
 Program to implement a String and its Operations using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Mohamed Hameem Sajith J
+RegisterNumber:  212223240090
 */
+
+import java.util.Scanner;
+
+public class SplitSentence {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+
+        String sentence = scanner.nextLine();
+
+        String[] words = sentence.split(" ");
+
+        for (String word : words) {
+            System.out.println(word);
+        }
+
+        scanner.close();
+    }
+}
+
+
 ```
-
-## Sourcecode.java:
-
-
-
-
-
 
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/487f650f-560a-49ed-b00b-0d370c53323c)
 
 
 ## RESULT:
