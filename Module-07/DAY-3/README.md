@@ -25,21 +25,35 @@
  ```
 /*
 Program to implement a Thread concepts using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Mohamed Hameem Sajith J
+RegisterNumber:  212223240090
+
 */
+
+   import java.util.*;
+    public class Multi extends Thread
+    {  
+        Scanner sc=new Scanner(System.in);
+        
+    public void run()
+    {  
+        String sname=sc.nextLine();
+        int rollno = sc.nextInt();
+        System.out.println("Patient Name: " +sname);  
+         System.out.println("Patient ID: " +rollno);  
+    }  
+    public static void main(String args[]){  
+    Multi t1=new Multi();  
+    t1.start();  
+     }  
+    }  
 ```
-
-## Sourcecode.java:
-
-
-
-
 
 
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/f358997a-5e94-45b9-9f44-37d6ee142c1d)
 
 
 ## RESULT:
