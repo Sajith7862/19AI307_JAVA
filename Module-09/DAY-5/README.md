@@ -20,21 +20,38 @@ j.	End the program.
  ```
 /*
 Program to implement a STRING WRITER
-Developed by: 
-RegisterNumber:  
+Developed by: Mohamed Hameem Sajith J
+RegisterNumber:  212223240090
+
 */
+import java.io.StringWriter;
+
+public class Main {
+  public static void main(String[] args) {
+
+    String data = "String Writer";
+
+    try {
+      StringWriter output = new StringWriter();
+
+      output.write(data);
+
+      System.out.println("Data in the StringWriter: " + output);
+
+      output.close();
+    }
+
+    catch(Exception e) {
+      e.getStackTrace();
+    }
+  }
+}
 ```
-
-## Sourcecode.java:
-
-
-
-
-
 
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/150f8777-8c5f-4ff4-baca-88c4d0a0ef89)
 
 
 ## RESULT:
