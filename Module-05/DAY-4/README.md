@@ -19,20 +19,38 @@
  ```
 /*
 Program to implement a IS-A RELATIONSHIP AND HAS-A RELATIONSHIP using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Mohamed Hameem Sajith J
+RegisterNumber:  212223240090
+ 
 */
+
+import java.util.Scanner;
+class factorial{
+    int fact(int a) {
+        int i, f = 1;
+        for (i = 1; i <= a; i++) {
+            f = f * i;
+        }
+        return f;
+    }
+}
+public class Main {
+    public static void main(String args[]) {
+        int a, f;
+        Scanner sc = new Scanner(System.in);
+        a = sc.nextInt();
+        factorial ff = new factorial();
+        f = ff.fact(a);
+        System.out.println("Factorial is:" + f);
+    }
+}
 ```
-
-## Sourcecode.java:
-
-
-
-
 
 
 
 ## OUTPUT:
+
+![image](https://github.com/user-attachments/assets/66890a2a-bc32-4af9-b228-593ad3190187)
 
 
 
