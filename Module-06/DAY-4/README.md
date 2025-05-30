@@ -15,21 +15,55 @@
  ```
 /*
 Program to implement a Packages using Java
-Developed by: 
-RegisterNumber:  
+
+Developed by: Mohamed Hameem Sajith J
+RegisterNumber:  212223240090
+
 */
+class Vehicle {
+    public Vehicle() {
+        System.out.println("Vehicle class has 3 Child Class");
+    }
+}
+
+class Car extends Vehicle {
+    public Car() {
+        super(); 
+        System.out.println("Car is the one of the Child of Vehicle Class");
+    }
+}
+
+class Truck extends Vehicle {
+    public Truck() {
+        super(); 
+        System.out.println("Truck is the one of the Child of Vehicle Class");
+    }
+}
+
+class Bus extends Vehicle {
+    public Bus() {
+        super(); 
+        System.out.println("Bus is the one of the Child of Vehicle Class");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Car car = new Car();
+        
+        Truck truck = new Truck();
+        
+        Bus bus = new Bus();
+    }
+}
 ```
-
-## Sourcecode.java:
-
-
-
 
 
 
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/2c939268-941e-4e3a-a7dd-b2aa427fce05)
 
 
 ## RESULT:
