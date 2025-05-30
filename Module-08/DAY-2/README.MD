@@ -17,21 +17,39 @@ To create a java program to append a NUMBER in a file “testout.txt” using Wr
  ```
 /*
 Program to implement a IO File Reader/Writer using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Mohamed Hameem Sajith J
+RegisterNumber:  212223240090
+
 */
+
+
+import java.io.*;  
+    import java.util.*;
+    public class JavaCharArrayReaderReadExample4 {  
+       public static void main(String[] args) {  
+    Scanner sc=new Scanner(System.in);
+    String data=sc.nextLine();
+   
+    char[] array = new char[40];
+    try {
+      StringReader input = new StringReader(data);
+      input.read(array);
+      System.out.println("Data read from the string:");
+      System.out.println(array);
+      input.close();
+    }
+    catch(Exception e) {
+      e.getStackTrace();
+    }
+       }  
+    }  
 ```
-
-## Sourcecode.java:
-
-
-
 
 
 
 
 ## OUTPUT:
-
+ 
 
 
 ## RESULT:
