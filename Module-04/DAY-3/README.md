@@ -24,23 +24,70 @@ To Create a Java program to implement super keyword in constructor.
 
 
 ## PROGRAM:
+
  ```
 /*
-Program to implement a Constructor Chaining using Java
-Developed by: 
-RegisterNumber:  
+Program to implement a Inheritance using Java
+Developed by: Mohamed Hameem Sajith J
+RegisterNumber:  212223240090
 */
+
+import java.util.*;
+interface Employee
+{
+    void get();
+}
+interface Employeesalary
+{
+   void gets();
+}
+class Employeedetails  implements Employee, Employeesalary
+{
+    Scanner sc= new Scanner(System.in);
+    public String name;
+    public int Id;
+    public String Sal;
+    public String des;
+    public void get()
+    {
+        Id= sc.nextInt();
+      
+        name =sc.next();
+        
+    }
+    public void gets()
+    {
+        Sal= sc.next();
+        des =sc.next();
+        
+    }
+    public void display()
+    {
+        System.out.println("Roll No : "+Id);
+        System.out.println("Name : "+name);
+         System.out.println("Year : "+Sal);
+        System.out.println("Department  : "+des);
+       
+    }
+    
+   
+    
+}
+public class Main
+{
+	public static void main(String[] args) 
+	{
+	Employeedetails E= new Employeedetails();
+	E.get();
+	E.gets();
+	E.display();
+	}
+}
 ```
-
-## Sourcecode.java:
-
-
-
-
-
 
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/478b5767-3c7a-4b9f-98c0-8a668bda82dc)
 
 
 
