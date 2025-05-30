@@ -19,21 +19,34 @@
  ```
 /*
 Program to implement a ARRAY LIST using Java
-Developed by: 
-RegisterNumber:  
+ Developed by: Mohamed Hameem Sajith J
+RegisterNumber:  212223240090
+
 */
+
+import java.util.*;
+public class Main{
+    public static void main(String [] args){
+        ArrayList <String> ai=new ArrayList<>();
+        Scanner sc= new Scanner(System.in);
+//int n=sc.nextInt();
+        for(int i=0;i<4;i++){
+            ai.add(sc.next());
+        }
+        ai.add(3,sc.next());
+        
+        Collections.sort(ai);
+        for(String i:ai){
+            System.out.println(i);
+        }
+    }
+}
 ```
-
-## Sourcecode.java:
-
-
-
-
-
 
 
 ## OUTPUT:
 
+![Uploading image.png…]()
 
 
 ## RESULT:
