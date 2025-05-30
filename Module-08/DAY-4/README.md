@@ -19,20 +19,29 @@
  ```
 /*
 Program to implement a Buffer Input/Output Stream using Java
-Developed by: 
-RegisterNumber:  
+ Developed by: Mohamed Hameem Sajith J
+RegisterNumber:  212223240090
+
 */
+
+FileWriter writer = new FileWriter("sample.txt");  
+    BufferedWriter buffer = new BufferedWriter(writer);  
+    Scanner sc=new Scanner(System.in);
+    String str=sc.nextLine();
+int index=sc.nextInt();
+    int length=sc.nextInt();
+    buffer.write(str,index,length);
+    
+    buffer.close();  
+    
 ```
-
-## Sourcecode.java:
-
-
 
 
 
 
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/842a54f3-97cc-4244-a9c5-b33c2514efc4)
 
 
 
