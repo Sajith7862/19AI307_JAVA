@@ -19,21 +19,42 @@ To Create a java program to print the sum of two number using getter and setter 
  ```
 /*
 Program to implement a Getter and Setter using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Mohamed Hameem Sajith J
+RegisterNumber:  212223240090
 */
+
+import java.util.*;
+public class SetAndGet {
+private int w;
+public void getfib() {
+        int t1=0,t2=1,sum=0;
+        for (int i = 1; i <= w; ++i)
+        {
+            System.out.print(t1 + " ");
+            sum = t1 + t2;
+            t1 = t2;
+            t2 = sum;
+        }
+}
+public void setfib(int w) {
+ this.w = w;
+}
+public static void main(String args[]){
+ Scanner sc=new Scanner(System.in);
+ SetAndGet obj = new SetAndGet();
+ int s1=sc.nextInt();
+ obj.setfib(s1);
+ obj.getfib();
+}
+}
+
 ```
-
-## Sourcecode.java:
-
-
-
-
 
 
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/7cd7e453-6b5f-458c-ab80-f32ed21218cf)
 
 
 ## RESULT:
