@@ -26,21 +26,46 @@ To write a parameterized constructor in the Employee class that initializes name
  ```
 /*
 Program to implement a Parameterized Constructor Using Java
-Developed by: 
-RegisterNumber:  
+
+Developed by: Mohamed Hameem Sajith J
+RegisterNumber:  212223240090
+  
 */
+
+class Parent{
+    public void display(){
+        System.out.println("This is Parent Class");
+    }
+}
+class Child1 extends Parent{
+    public void print(){
+        System.out.println("This is Child1 Class");
+    }
+}
+class Child2 extends Child1 {
+    public void print(){
+        System.out.println("This is Child2 Class");
+    }
+}
+class prog{
+    public static void main(String [] args){
+        Parent obj= new Parent();
+        Child1 obj1=new Child1();
+        Child2 obj2=new Child2();
+        obj.display();
+        obj1.print();
+        obj.display();
+        obj2.print();
+        
+    }
+}
 ```
-
-## Sourcecode.java:
-
-
-
-
 
 
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/28205a91-cb40-4e23-996b-1d9d7588b4a8)
 
 
 ## RESULT:
