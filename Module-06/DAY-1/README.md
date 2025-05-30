@@ -23,21 +23,43 @@ To create a Java Program to implement Method Local Inner Class.
  ```
 /*
 Program to implement a Inner Class using Java
-Developed by: 
-RegisterNumber:  
+
+Developed by: Mohamed Hameem Sajith J
+RegisterNumber:  212223240090
+
 */
+class Login {
+    private String userName;  
+    private String password;  
+
+    public Login(String userName, String password) {
+        this.userName = userName;
+        this.password = password;
+    }
+
+    class ValidateCredentials {
+        public void validate() {
+            System.out.println(userName+" "+ password);
+        }
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Login login = new Login("Saveetha", "12345");
+
+        Login.ValidateCredentials validator = login.new ValidateCredentials();
+
+        validator.validate();
+    }
+}
+
+
 ```
-
-## Sourcecode.java:
-
-
-
-
-
-
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/9b8e3416-9a4b-4cf9-8af7-f523b249c9f0)
 
 
 ## RESULT:
