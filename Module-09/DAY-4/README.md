@@ -17,20 +17,34 @@
  ```
 /*
 Program to implement a Transient using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Mohamed Hameem Sajith J
+RegisterNumber:  212223240090
+
 */
+
+ try
+  {
+            Scanner sc=new Scanner(System.in);
+            String name=sc.nextLine();
+            String dept=sc.nextLine();
+            int rollno = sc.nextInt();
+           
+           Studentinfo si1 = new Studentinfo(name,dept,rollno);
+            FileOutputStream fos = new FileOutputStream("student.txt");
+            ObjectOutputStream oos = new ObjectOutputStream(fos);
+            oos.writeObject(si1);
+            oos.close();
+        }
+        catch (Exception e)
+        {
+            System.out.println(e);
+        } 
 ```
-
-## Sourcecode.java:
-
-
-
-
 
 
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/89967d6e-2792-47d9-a559-a3927a2b9913)
 
 
 
