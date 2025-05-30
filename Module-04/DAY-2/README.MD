@@ -30,17 +30,47 @@ To create  a Java program to perform the inheritance concept for employee detail
  ```
 /*
 Program to implement a Inheritance using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Mohamed Hameem Sajith J
+RegisterNumber:  212223240090
 */
+// Parent Class
+class Vehicle {
+    // Method to display Vehicle class message
+    public void display() {
+        System.out.println("Vehicle Class");
+    }
+}
+
+// Child Class of Vehicle
+class Car extends Vehicle {
+    // Method to display Car class message
+    public void print() {
+        System.out.println("Car Class");
+    }
+}
+
+// Child Class of Car
+class Alto extends Car {
+    // Method to display Alto class message
+    public void show() {
+        System.out.println("Alto Class");
+    }
+}
+
+// Main Class
+public class Main {
+    public static void main(String[] args) {
+        // Create an object of Alto class
+        Alto alto = new Alto();
+
+        // Access methods from all the classes
+        alto.display(); // Method from Vehicle class
+        alto.print();   // Method from Car class
+        alto.show();    // Method from Alto class
+    }
+}
+
 ```
-
-## Sourcecode.java:
-
-
-
-
-
 
 
 ## OUTPUT:
