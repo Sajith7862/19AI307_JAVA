@@ -24,21 +24,68 @@
  ```
 /*
 Program to implement a Hierarchical Inheritance using Java
-Developed by: 
-RegisterNumber:  
+
+Developed by: Mohamed Hameem Sajith J
+RegisterNumber:  212223240090
+
 */
+
+import java.util.*;
+interface Employee
+{
+    void get();
+}
+interface Employeesalary
+{
+   void gets();
+}
+class Employeedetails  implements Employee, Employeesalary
+{
+    Scanner sc= new Scanner(System.in);
+    public String name;
+    public int Id;
+    public String Sal;
+    public String des;
+    public void get()
+    {
+        Id= sc.nextInt();
+      
+        name =sc.next();
+        
+    }
+    public void gets()
+    {
+        Sal= sc.next();
+        des =sc.next();
+        
+    }
+    public void display()
+    {
+        System.out.println("Roll No : "+Id);
+        System.out.println("Name : "+name);
+         System.out.println("Year : "+Sal);
+        System.out.println("Department  : "+des);
+       
+    }
+    
+   
+    
+}
+public class Main
+{
+	public static void main(String[] args) 
+	{
+	Employeedetails E= new Employeedetails();
+	E.get();
+	E.gets();
+	E.display();
+	}
+}
 ```
-
-## Sourcecode.java:
-
-
-
-
-
-
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/fe2a899b-10ed-476c-9d42-49a0d1d5d5e5)
 
 
 ## RESULT:
