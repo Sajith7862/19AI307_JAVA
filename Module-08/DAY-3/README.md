@@ -17,22 +17,30 @@
  ```
 /*
 Program to implement a Filter Reader using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Mohamed Hameem Sajith J
+RegisterNumber:  212223240090
+ 
 */
+
+        FileInputStream  file1 = new FileInputStream("sample.txt");  
+        FilterInputStream filter = new BufferedInputStream(file1);  
+        int k =0;  
+        while((k=filter.read())!=-1){  
+            System.out.print((char)k);  
+        }  
+          
+      
+               
+ 
+ 
+ 
 ```
-
-## Sourcecode.java:
-
-
-
-
-
 
 
 ## OUTPUT:
 
 
+![image](https://github.com/user-attachments/assets/8c08ed76-9c45-4f74-a628-305fb108f467)
 
 ## RESULT:
 Thus the java Program to read the content from the file by using Filter Reader  was executed and verified successfully.
