@@ -24,16 +24,26 @@ To Write a Java program to demonstrate control flow of try-catch-finally clause 
  ```
 /*
 Program to implement a Exception Handling-Finally using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Mohamed Hameem Sajith J
+RegisterNumber:  212223240090
+ 
 */
+
+public class TryCatchFinallyDemo {
+    public static void main(String[] args) {
+        try {
+            String str = null; // Null value assigned
+            System.out.println(str.length()); // Causes NullPointerException
+        } catch (NullPointerException e) {
+            System.out.println("Exception: " + e);
+        } finally {
+            System.out.println("Finally block executed");
+        }
+        System.out.println("Outside try-catch-finally clause");
+    }
+}
+
 ```
-
-## Sourcecode.java:
-
-
-
-
 
 
 
