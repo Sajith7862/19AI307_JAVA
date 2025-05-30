@@ -1,4 +1,4 @@
-# Ex.No:8(A)           IO-FILE STREAM
+![image](https://github.com/user-attachments/assets/ab2cc611-6cb4-4453-b951-e81ea595b5b2)# Ex.No:8(A)           IO-FILE STREAM
 ## AIM:
 To implement a Java Program to write a String in a file "testout.txt" using FileOutputStream
 
@@ -15,21 +15,24 @@ To implement a Java Program to write a String in a file "testout.txt" using File
  ```
 /*
 Program to implement a IO File Stream using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Mohamed Hameem Sajith J
+RegisterNumber:  212223240090
+
 */
+
+OutputStream fout=new FileOutputStream("sample.txt",true);
+String str="SAVEETHA ENGINEERING COLLEGE";
+byte b[]=str.getBytes();
+fout.write(b);
+fout.close();
+                      System.out.println("Successfully Completed");  
+           
 ```
-
-## Sourcecode.java:
-
-
-
-
-
 
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/e94fd420-22e1-41ef-823a-64392ba0d314)
 
 
 ## RESULT:
