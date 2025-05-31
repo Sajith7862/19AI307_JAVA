@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/cea0f5cc-e711-4362-aa9c-ee4ca4992b51)# Ex.No:11(E)  JAVA HASHMAP
+# Ex.No:11(E)  JAVA HASHMAP
 
 ## AIM:
 To demonstrate removing a key from a HashMap and printing all remaining key-value pairs
