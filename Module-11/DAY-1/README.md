@@ -18,21 +18,34 @@
  ```
 /*
 Program to implement a JAVA TREESET using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Mohamed Hameem Sajith J
+RegisterNumber:  212223240090
+
+import java.util.*;
+public class prog{
+    public static void main(String [] args){
+        Scanner sc=new Scanner(System.in);
+        int size=sc.nextInt();
+        TreeSet<String> tree_set=new TreeSet<>();
+        for(int i=0;i<size;i++){
+            tree_set.add(sc.next());
+        }
+           System.out.println("Original tree set:" + tree_set);  
+        Iterator it=tree_set.descendingIterator();
+             System.out.println("Elements in Reverse Order:");
+while(it.hasNext()){
+    System.out.println(it.next());
+}
+    }
+}
 */
 ```
-
-## Sourcecode.java:
-
-
-
-
 
 
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/11da9741-1819-4050-aadd-9262bb066826)
 
 
 ## RESULT:
