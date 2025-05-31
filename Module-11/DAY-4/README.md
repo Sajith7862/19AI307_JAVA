@@ -21,21 +21,41 @@ To Create a java program to insert and display the key and values using map inte
  ```
 /*
 Program to implement a RELATED TO MAP CONCEPTS using Java
-Developed by: 
-RegisterNumber:  
+ Developed by: Mohamed Hameem Sajith J
+RegisterNumber:  212223240090
+
 */
+
+import java.util.*;  
+public class MapExample3{  
+ public static void main(String args[]){  
+Map<Integer,String> map=new HashMap<Integer,String>();          
+      Scanner sc=new Scanner(System.in);
+  
+  int size=sc.nextInt();
+  for(int i=0;i<size;i++)
+  {
+  Integer a=sc.nextInt();
+  String b=sc.next();
+  map.put(a,b);  
+  }   
+
+      map.entrySet()  
+       
+      .stream()  
+   
+      .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))  
+
+      .forEach(System.out::println);  
+ }  
+} 
 ```
-
-## Sourcecode.java:
-
-
-
-
 
 
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/3a050c1f-6b1c-44ee-a538-7e35cbaf612a)
 
 
 ## RESULT:
