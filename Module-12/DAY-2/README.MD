@@ -23,15 +23,68 @@ To Write a java program to compare two elements , if element is greater means di
  ```
 /*
 Program to implement a COMPARABLE & COMPARATOR INTERFACE using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Mohamed Hameem Sajith J
+RegisterNumber:  212223240090
+ 
 */
+
+import java.io.*;
+import java.lang.*;
+import java.util.*;
+class Student {
+ 
+    int rollno;
+    String name, address;
+    public Student(int rollno, String name, String address)
+    {
+        this.rollno = rollno;
+        this.name = name;
+        this.address = address;
+    }
+    public String toString()
+    {
+         return this.rollno + " " + this.name + " "
+            + this.address;
+    }
+}
+class Sortbyname implements Comparator<Student> {
+ 
+    public int compare(Student a, Student b)
+    {
+ 
+        return a.name.compareTo(b.name);
+    }
+}
+public class Main {
+    public static void main(String[] args)
+    {
+        ArrayList<Student> ar = new ArrayList<Student>();
+        Scanner sc=new Scanner(System.in);
+        int size=sc.nextInt();
+        for(int i=0;i<size;i++)
+        {
+        ar.add(new Student(sc.nextInt(),sc.next(),sc.next()));
+        }
+      
+        System.out.println("Unsorted");
+ 
+        
+        for (int i = 0; i < ar.size(); i++)
+            System.out.println(ar.get(i));
+ 
+         Collections.sort(ar, new Sortbyname());
+ 
+        
+        System.out.println("\nSorted by name");
+ 
+        
+        for (int i = 0; i < ar.size(); i++)
+            System.out.println(ar.get(i));
+ 
+       
+    }
+}
 ```
-
-## Sourcecode.java:
-
-
-
 
 
 
